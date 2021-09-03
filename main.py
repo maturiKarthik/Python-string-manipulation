@@ -1,12 +1,6 @@
-import Coverstion
-import Arthematic
-import StringManipulation
+import StringManipulation as sm
 
-value = input("Enter a value ;")
+value = input("Enter a String ::").lower()
 print(type(value))
-print(StringManipulation.make_every_even_index_to_uppercase(value))
-
-# try:
-#     print(Arthematic.check_number_is_prime(Coverstion.convert_str_to_any(value, "int")))
-# except:
-#     print("Some error has occurred")
+print(sm.make_every_even_index_to_uppercase(value))
+# print(sm.make_every_prime_index_to_uppercase(value)) #uncomment to see the result
